@@ -1,0 +1,15 @@
+{
+  "name": "qa-playwright-bdd-framework",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "playwright-bdd": "^8.5.1"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}

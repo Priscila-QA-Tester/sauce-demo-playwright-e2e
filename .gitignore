@@ -1,0 +1,19 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor folders
+.vscode/
+
+# Ignore node modules if added
+node_modules/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Playwright and BDD auto-generated files
+.features-gen/
+test-results/
+playwright-report/
+blob-report/
