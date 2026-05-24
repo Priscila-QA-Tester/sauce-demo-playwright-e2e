@@ -9,7 +9,7 @@ const testDir = defineBddConfig({
 module.exports = defineConfig({
   testDir,
   use: {
-    headless: false,
+    headless: process.env.CI ? true : false,
     baseURL: 'https://www.saucedemo.com',
   },
 });
